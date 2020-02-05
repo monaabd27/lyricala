@@ -1,0 +1,41 @@
+.NavBar-container {
+  padding: var(--s) var(--m);
+  /* background-color: var(--primary); */
+  /* background: linear-gradient(
+    135deg,
+    rgba(61, 43, 61, 1) 0%,
+    rgba(175, 154, 178, 1) 50%,
+    rgba(218, 212, 239, 1) 100%
+  ); */
+  background: linear-gradient(155deg, rgba(3, 0, 39, 1) 0%, rgba(193, 110, 112, 1) 75%);
+  text-align: left;
+}
+
+.NavBar-title {
+  color: var(--darkgrey);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.NavBar-linkContainer {
+  margin-left: var(--l);
+}
+
+.NavBar-link,
+.NavBar-link:visited {
+  color: var(--white);
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.NavBar-link:hover {
+  opacity: 0.8;
+}
+
+.NavBar-link.NavBar-login {
+  opacity: 0.75;
+}
+
+.NavBar-link + .NavBar-link {
+  margin-left: var(--m);
+}

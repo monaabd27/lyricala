@@ -1,0 +1,30 @@
+.input-field {
+  font-size: 40px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #c16e70;
+}
+
+.current-word {
+  text-decoration: underline;
+}
+
+.right-letter {
+  color: #7daf79;
+}
+
+.wrong-letter {
+  color: #c14f51;
+}
+*:focus {
+  outline: none;
+}
+.content {
+  color: var(--primary);
+  font-size: 40px;
+}
+
+.stats {
+  color: var(--primary);
+  font-size: 20px;
+}
